@@ -2,19 +2,26 @@
   "name": "zapier-gpt4-langchain",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "script": "tsx -r dotenv/config zapier/email-slack.ts"
   },
   "dependencies": {
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.56",
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.6"
   }
 }
