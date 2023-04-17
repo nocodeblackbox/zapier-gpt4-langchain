@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the zapier script:
+1. Install packages using
+
+```bash
+npm install
+```
+
+2. Copy and past the .env.example file and remove the .example extension
+
+3. Add Corresponding API Keys
+
+4. run the zapier script:
 
 ```bash
 npm run script
